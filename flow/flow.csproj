@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{492461A8-F894-4A3B-9682-08AA1EFD3E5F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Flow</RootNamespace>
+    <AssemblyName>Flow</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.1.0.145, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <HintPath>..\packages\SharpZipLib.1.1.0\lib\net45\ICSharpCode.SharpZipLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Board.cs" />
+    <Compile Include="OutputWriter.cs" />
+    <Compile Include="Parameters.cs" />
+    <Compile Include="Line.cs" />
+    <Compile Include="Point.cs" />
+    <Compile Include="ProblemInstance.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ISolution.cs" />
+    <Compile Include="SolutionLevel02.cs" />
+    <Compile Include="SolutionLevel03.cs" />
+    <Compile Include="SolutionLevel04.cs" />
+    <Compile Include="SolutionLevel05.cs" />
+    <Compile Include="Step.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CompletedOutput\level2-0.in.out" />
+    <Content Include="CompletedOutput\level2-1.in.out" />
+    <Content Include="CompletedOutput\level2-2.in.out" />
+    <Content Include="CompletedOutput\level2-3.in.out" />
+    <Content Include="CompletedOutput\level3-0.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-01.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-02.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-03.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-04.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-1.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-2.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-3.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-4.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-5.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-6.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level3-7.in_SolutionLevel03.out" />
+    <Content Include="CompletedOutput\level4-0.in_SolutionLevel04.out" />
+    <Content Include="CompletedOutput\level4-1.in_SolutionLevel04.out" />
+    <Content Include="CompletedOutput\level4-2.in_SolutionLevel04.out" />
+    <Content Include="CompletedOutput\level4-3.in_SolutionLevel04.out" />
+    <Content Include="CompletedOutput\level4-4.in_SolutionLevel04.out" />
+    <Content Include="CompletedOutput\level4-5.in_SolutionLevel04.out" />
+    <Content Include="Completed\level2-0.in" />
+    <Content Include="Completed\level2-1.in" />
+    <Content Include="Completed\level2-2.in" />
+    <Content Include="Completed\level2-3.in" />
+    <Content Include="Completed\level3-0.in" />
+    <Content Include="Completed\level3-01.in" />
+    <Content Include="Completed\level3-02.in" />
+    <Content Include="Completed\level3-03.in" />
+    <Content Include="Completed\level3-04.in" />
+    <Content Include="Completed\level3-1.in" />
+    <Content Include="Completed\level3-2.in" />
+    <Content Include="Completed\level3-3.in" />
+    <Content Include="Completed\level3-4.in" />
+    <Content Include="Completed\level3-5.in" />
+    <Content Include="Completed\level3-6.in" />
+    <Content Include="Completed\level3-7.in" />
+    <Content Include="Completed\level4-0.in" />
+    <Content Include="Completed\level4-1.in" />
+    <Content Include="Completed\level4-2.in" />
+    <Content Include="Completed\level4-3.in" />
+    <Content Include="Completed\level4-4.in" />
+    <Content Include="Completed\level4-5.in" />
+    <Content Include="Input\level5-0.in" />
+    <Content Include="Input\level5-1.in" />
+    <Content Include="Input\level5-2.in" />
+    <Content Include="Input\level5-3.in" />
+    <Content Include="Input\level5-4.in" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Output" />
+    <Folder Include="Zip" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>
