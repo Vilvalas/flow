@@ -58,28 +58,6 @@
     <Compile Include="Step.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CompletedOutput\level2-0.in.out" />
-    <Content Include="CompletedOutput\level2-1.in.out" />
-    <Content Include="CompletedOutput\level2-2.in.out" />
-    <Content Include="CompletedOutput\level2-3.in.out" />
-    <Content Include="CompletedOutput\level3-0.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-01.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-02.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-03.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-04.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-1.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-2.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-3.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-4.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-5.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-6.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level3-7.in_SolutionLevel03.out" />
-    <Content Include="CompletedOutput\level4-0.in_SolutionLevel04.out" />
-    <Content Include="CompletedOutput\level4-1.in_SolutionLevel04.out" />
-    <Content Include="CompletedOutput\level4-2.in_SolutionLevel04.out" />
-    <Content Include="CompletedOutput\level4-3.in_SolutionLevel04.out" />
-    <Content Include="CompletedOutput\level4-4.in_SolutionLevel04.out" />
-    <Content Include="CompletedOutput\level4-5.in_SolutionLevel04.out" />
     <Content Include="Completed\level2-0.in" />
     <Content Include="Completed\level2-1.in" />
     <Content Include="Completed\level2-2.in" />
